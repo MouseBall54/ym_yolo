@@ -1,0 +1,7 @@
+# Put actual images and YOLO txt labels in datasets/detection. Edit names before training real classes.
+path: ../../datasets/detection
+train: images/train
+val: images/val
+channels: 1
+names:
+  0: target # Placeholder: replace with the actual class name(s).

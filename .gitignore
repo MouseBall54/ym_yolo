@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+datasets/**
+!datasets/**/
+!datasets/README.md
+!datasets/**/.gitkeep
+results/*
+!results/README.md
+weights/*
+!weights/README.md
+vendor/
+ultralytics-src/
+*.cache

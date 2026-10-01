@@ -1,0 +1,11 @@
+# Put actual images and pixel-ID PNG masks in datasets/segmentation. Edit names/mapping for real labels.
+path: ../../datasets/segmentation
+train: images/train
+val: images/val
+channels: 1
+masks_dir: masks
+names:
+  0: background
+  1: target # Placeholder: replace/add foreground classes.
+# Default: 255=ignore. If 255 means foreground instead, explicitly use:
+# label_mapping: {0: 0, 255: 1}

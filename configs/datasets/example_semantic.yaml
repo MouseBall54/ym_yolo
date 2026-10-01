@@ -1,0 +1,9 @@
+path: ../../datasets/example_semantic
+train: images/train
+val: images/val
+channels: 1
+masks_dir: masks
+names:
+  0: background
+  1: target
+# 255 is ignored. For a 0/255 binary foreground mask, explicitly use label_mapping: {0: 0, 255: 1}.

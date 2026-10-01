@@ -1,0 +1,19 @@
+task: semantic
+model: ../models/yolo26n-gray-sem.yaml
+data: ../datasets/semantic.yaml
+project: results/training/semantic
+name: gray_baseline
+device: 0
+epochs: 50
+imgsz: 640
+batch: 2
+workers: 0
+cache: false
+pretrained: false
+amp: true
+seed: 42
+deterministic: true
+hsv_h: 0.0
+hsv_s: 0.0
+hsv_v: 0.0
+# weights: weights/yolo26n-sem.pt

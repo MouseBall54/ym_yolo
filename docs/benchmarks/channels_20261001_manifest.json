@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "task": "both",
+    "detect_data": "configs/datasets/example_detect.yaml",
+    "semantic_data": "configs/datasets/example_semantic.yaml",
+    "imgsz": 640,
+    "batch": 2,
+    "epochs": 5,
+    "repeats": 3,
+    "amp": true,
+    "output": "results\\benchmarks\\channels_20261001",
+    "worker_config": null
+  },
+  "datasets": {
+    "detect": {
+      "counts": {
+        "train": 8,
+        "val": 4
+      },
+      "pixel_annotation_sha256": "88276795261c1bcca98176174ec1e3863bc203834e385ced25efe551d836e8b4",
+      "source": "C:\\Git\\ym_yolo\\datasets\\example_detect"
+    },
+    "semantic": {
+      "counts": {
+        "train": 8,
+        "val": 4
+      },
+      "pixel_annotation_sha256": "af655a6c6900ff06a1a35cfe31e8d102437d07a37b4b3c2cb4c61993589989b6",
+      "source": "C:\\Git\\ym_yolo\\datasets\\example_semantic"
+    }
+  }
+}

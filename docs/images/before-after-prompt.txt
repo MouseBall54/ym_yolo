@@ -1,0 +1,18 @@
+Use case: infographic-diagram.
+Create one polished Korean technical Before/After infographic for a repository README. Wide landscape approximately 1800x1200, white background, crisp flat educational illustration, restrained slate-blue for the Before panel and teal for After, very legible Korean typography and monospaced tensor labels. No photographs, no logos, no invented benchmark charts.
+
+Title exact: "YOLO26 · 3채널에서 1채널로"
+Subtitle exact: "입력 경로 Before / After"
+
+Two balanced side-by-side columns. Left heading "BEFORE" and secondary label "기본 RGB 경로 · 비교 기준". Right heading "AFTER" and secondary label "현재 프로젝트 · 실제 1채널".
+Visualize a grayscale rectangular inspection image with a simple bright defect. In Before, show that SAME grayscale image as three identical planes, label "3채널 입력", then an arrow to a first convolution block labeled "in_channels = 3". After shows ONE grayscale plane labeled "1채널 입력" leading to "in_channels = 1". These planes must be identical grayscale content, not three different scenes. Do NOT show the entire neural network shrunk to a third. Following the first convolution, show equally sized feature-map blocks in each column, with exact shared label "이후 feature 구조 동일".
+Under Before put three large exact labels: "[2, 3, 128, 128]", "98,304 원소", "입력 uint8 · 96 KiB".
+Under After put exact labels: "channels: 1", "[2, 1, 128, 128]", "32,768 원소", "입력 uint8 · 32 KiB".
+Show a clear small statement shared across both: "이미지 0~255 → /255 → 모델 입력 0~1".
+
+Across the bottom put a clean neutral information strip with exact heading "수정 범위".
+Then two precise labels: "Ultralytics 원본 수정 없음", "사용자 코드와 YAML 추가".
+Below this show four small folder cards, with exact labels "training/", "configs/", "datasets/", "results/".
+At the very bottom put a large readable caveat: "입력·첫 합성곱 비용 1/3 ≠ 전체 학습 비용 1/3".
+Small caption: "Detection + Semantic Segmentation · 비교 개념도".
+Technical accuracy is mandatory: Before is a conceptual default-RGB reference, not a measured previous run. After batch is the verified example size 2 x 1 x 128 x 128. These bytes describe raw uint8 image input only, not total GPU VRAM. No claims of 3x overall speed, 67% total GPU memory saving, new accuracy improvements, or modification of upstream source.

@@ -1,0 +1,48 @@
+{
+  "detect": {
+    "1ch": {
+      "peak_allocated_mib": 375.1015625,
+      "peak_reserved_mib": 400.0,
+      "steady_epoch_seconds": 0.3349986499961233,
+      "input_bytes": 3276800,
+      "parameters": 2503902
+    },
+    "3ch": {
+      "peak_allocated_mib": 390.41845703125,
+      "peak_reserved_mib": 412.0,
+      "steady_epoch_seconds": 0.3528954499925021,
+      "input_bytes": 9830400,
+      "parameters": 2504190
+    },
+    "one_over_three": {
+      "peak_allocated_mib": 0.9607680060832166,
+      "peak_reserved_mib": 0.970873786407767,
+      "steady_epoch_seconds": 0.9492858295657848,
+      "input_bytes": 0.3333333333333333,
+      "parameters": 0.9998849927521474
+    }
+  },
+  "semantic": {
+    "1ch": {
+      "peak_allocated_mib": 375.77294921875,
+      "peak_reserved_mib": 406.0,
+      "steady_epoch_seconds": 0.7778422999981558,
+      "input_bytes": 3276800,
+      "parameters": 1630404
+    },
+    "3ch": {
+      "peak_allocated_mib": 391.33984375,
+      "peak_reserved_mib": 418.0,
+      "steady_epoch_seconds": 0.7998355000017909,
+      "input_bytes": 9830400,
+      "parameters": 1630692
+    },
+    "one_over_three": {
+      "peak_allocated_mib": 0.9602215445734307,
+      "peak_reserved_mib": 0.9712918660287081,
+      "steady_epoch_seconds": 0.9725028458932045,
+      "input_bytes": 0.3333333333333333,
+      "parameters": 0.9998233878623308
+    }
+  }
+}

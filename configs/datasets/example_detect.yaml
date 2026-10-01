@@ -1,0 +1,6 @@
+path: ../../datasets/example_detect
+train: images/train
+val: images/val
+channels: 1
+names:
+  0: target
